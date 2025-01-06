@@ -1,0 +1,10 @@
+.container{
+  width: 300px;
+  height: 400px;
+  background-color: skyblue;
+  background-image: url("/image/zz.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
