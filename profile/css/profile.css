@@ -1,0 +1,22 @@
+.profileImage{
+  width: 100px;
+  margin: 30px;
+  /* 이미지가 <인라인 요소  */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'gulim';
+  color: palevioletred;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+p{
+  text-align: center;
+  background-color: blanchedalmond;
+}
