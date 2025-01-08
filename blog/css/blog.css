@@ -18,12 +18,14 @@ body{
   width: 20%;
   height: 200px;
   vertical-align: middle;
+  
 
 }
 .profile-img{
   width: 50px;
   height: 100%;
   float: left;
+  
 }
 .blog-name{
   width: 150px;

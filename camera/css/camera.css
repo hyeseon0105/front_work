@@ -18,8 +18,7 @@ body{
   border: 1px solid #ddd;
   background-color: white;
   overflow: hidden;
-
-  
+ 
 
 }
 .productImage{
@@ -28,7 +27,7 @@ body{
   border-radius: 15px;
   margin: 20px;
   object-fit: cover;
-
+  
 }
 .product-info{
   flex: 1;
@@ -82,6 +81,7 @@ align-items: center;
   border: 1px solid #ddd;
   background-color: white;
   overflow: hidden;
+ 
 
 }
 .product-info2{
@@ -111,6 +111,7 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  
  
 
 }
@@ -123,5 +124,6 @@ align-items: center;
   font-size: 16px;
   display: flex;
   align-items: center;
+  
 
 }
