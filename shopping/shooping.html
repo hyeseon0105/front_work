@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/shopping.css">
+  <script src="./js/shopping.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="" method="get" onabort="check()">
+      <fieldset>
+        <legend>상품 선택</legend>
+        <ul>
+          <li>
+            <h3>주문할 상품을 선택해 주세요.</h3>
+            <input type="checkbox" for="product1">선물용 3kg</input>
+            <input type="number" id="product1" class="product-input" min="1" max="5" style="width: 25px;"> 개
+            <label for="number" style="font-size: 14px;"> (최대 5개)</label>
+            
+
+
+          <li>
+            <input type="checkbox" for="product2">선물용 5kg</input>
+            <input type="number" id="product2" class="product-input" min="1" max="3" style="width: 25px;"> 개 
+            <label for="number" style="font-size: 14px;"> (최대 3개)</label>
+
+
+          </li>
+          <li>
+            <input type="checkbox" for="product3">가정용 3kg</input>
+            <input type="number" id="product3" class="product-input" min="1" max="5" style="width: 25px;"> 개 
+            <label for="number" style="font-size: 14px;"> (최대 5개)</label>
+
+
+          </li>
+          <li>
+            <input type="checkbox" for="product4">가정용 5kg</input>
+            <input type="number" id="product4" class="product-input" min="1" max="3" style="width: 25px;"> 개 
+            <label for="number" style="font-size: 14px;"> (최대 3개)</label>
+
+
+          <li>
+            <h3>포장 선택</h3>
+          </li>
+          </li>
+          <input type="radio" id="choose" name="choose" value="yes" checked>
+          <label for="choose">선물 포장</label>
+          <li>
+            <input type="radio" id="choose_not" name="choose" value="no" checked>
+            <label for="choose">선물 포장 안함</label>
+          </li>
+
+
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>배송 정보</legend>
+        <div class="field">
+          <label for="name">이름</label>
+          <input type="text" id="name" placeholder="이름" required>
+        </div>
+        <div class="field">
+          <label for="address">배송 주소</label>
+          <input type="text" id="address" placeholder="주소" required>
+        </div>
+        <div class="field">
+          <label for="email">이메일</label>
+          <input type="email" id="email" placeholder="example@example.com" required>
+        </div>
+        <div class="field">
+          <label for="contact">연락처</label>
+          <input type="tel" id="contact" placeholder="전화번호" required>
+        </div>
+        <div class="field">
+          <label for="delivery_date">배송 지정일</label>
+          <input type="date" id="delivery_date" required>
+          <div class="dd">(주문일로부터 최소3일 이후)</div>
+        </div>
+        
+        <div class="field">
+          <label for="memo">메모</label>
+          <textarea id="memo" rows="3" placeholder="메모를 입력하세요"></textarea>
+        </div>
+      </fieldset>
+     
+      <div class="buttons">
+        <input type="submit" value="주문하기">
+        <input type="reset" value="취소하기">
+      </div>
+<script>
+  function check() {
+        // 입력한 내용을 사라지지 않게 유지하는 함수
+        event.preventDefault();
+       const name = document.querySelector('#name');
+       const email = document.querySelector('#email');
+       const contact = document.querySelector('#contact');
+       const input = document.querySelectorAll('.product-input');
+
+       const delivery_date = document.querySelector('#delivery_date');
+  }
+
+  
+      
+</script>
+    </form>
+  </div>
+</body>
+
+</html>

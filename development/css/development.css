@@ -1,0 +1,44 @@
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+.container{
+  width: 600px;
+  margin: 15% auto;
+ 
+  
+}
+ul li{
+  margin: 20px 0;
+  
+}
+.name {
+  display: inline-block;
+  width: 70px;
+  height: 10px;
+  font-weight: normal;
+  margin-left: 50px;
+}
+.deve{
+  margin-left: 50px;
+  
+
+
+}
+textarea{
+  margin-left: 14px;
+  
+}
+.class{
+  margin-left: 20px;
+
+}
+.buttons{
+  width: 400px;
+  margin: 10px auto;
+ margin-left: 14px;
+ margin-top: -15px;
+}
+hr{
+  width: 530px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/development.css">
+  <script src="./js/development.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="" method="get" onabort="check()">
+      <fieldset>
+        <h1 class="class">프런트엔드 개발자 지원서</h1>
+
+        <ul>
+          <li>
+            <h4 class="class" style="font-weight: lighter;">HTML, CSS, Janascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</h4>
+            <hr>
+          </li>
+          <li>
+            <h3 class="class">개인정보</h3>
+          </li>
+          <li>
+            <label for="name" class="name">이름</label>
+            <input type="text" id="name" placeholder="공백없이 입력하세요." name="name" required autofocus>
+          </li>
+          <li>
+            <label for="phone" class="name">연락처</label>
+            <input type="tel" id="phone" placeholder="전화번호" required>
+          </li>
+          <h3 class="class">지원분야</h3>
+          <li>
+            <input type="radio" class="deve" id="deve1" name="deve0" value="yes" checked>
+            <label for="mail">웹 퍼블리싱 </label>
+          </li>
+
+          <li>
+            <input type="radio" class="deve" id="deve2" name="deve0" value="no">
+            <label for="mail_not">웹 애플리케이션 개발</label>
+          </li>
+
+          <li>
+            <input type="radio" class="deve" id="deve3" name="deve0" value="xx">
+            <label for="mail_no">개발 환경 개선</label>
+          </li>
+          <li>
+            <h3 class="class">지원동기</h3>
+
+          </li>
+          <li>
+            <textarea name="memo" id="memo" rows="4" cols="40" placeholder="지원동기를 간략하게 써주세요."></textarea>
+          </li>
+
+        </ul>
+        <div class="buttons">
+          <input type="submit" value="접수하기">
+          <input type="reset" value="다시쓰기">
+        </div>
+     
+
+
+
+      </fieldset>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

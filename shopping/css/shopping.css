@@ -1,0 +1,97 @@
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+fieldset{
+ 
+  border: 1px solid black;
+  margin-bottom: 15px;
+  padding: 15px;
+  /* border-radius: 5px; */
+  }
+  .container{
+    width: 600px;
+    margin: 10px auto;
+    
+  }
+  ul li{
+    margin: 10px 0;
+    
+  }
+  legend {
+    font-size: 1.1em           ;
+    font-weight: bold;
+  }
+  label {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    font-weight: normal;
+  }
+  .product-input {
+    width: 50px;
+    margin-left: 5px;
+  }
+
+  textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+ {
+  width: calc(80% - 120px);
+  padding: 5px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="date"]{
+  width: calc(39% - 120px);
+  padding: 5px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons{
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+.buttons input{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-color: #fff;
+}
+.buttons input:hover {
+  background-color: palegoldenrod;
+  color: #fff;
+  border-color: #fff;
+  
+}
+textarea {
+  resize: none;
+  width: calc(59% - 0px);
+  margin: 5px;
+  
+}
+.field {
+  display: flex;
+  align-items: center; /* 세로 정렬 */
+  margin-bottom: 15px;
+}
+.field label {
+  display: inline-block;
+  width: 130px; /* 라벨 너비 고정 */
+}
+input[type ="submit"]{
+  background-color: blue;
+  color: aqua;
+}
+.dd{
+  font-size: 13px;
+  margin: 10px;
+}
