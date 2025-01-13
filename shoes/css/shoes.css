@@ -13,6 +13,16 @@
   position: relative;
 
 }
+.nav-container{
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+
+}
+.nav-item{
+  margin-right: 10px;
+}
 
 .main-title {
    color: whitesmoke; 
@@ -117,3 +127,43 @@ div,input,textarea{
 .yellow-button{
   background-color: yellow;
 }
+
+.product-container{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  
+.product-container div{
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+
+@media screen and (max-width: 1200px){
+  /* 화면의 크기가 1200px 이하일 때 
+  테블릿 사이즈 적용할 css를 기술 */
+  .main-title{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width: 768px){
+  /* 화면의 크기가 1200px 이하일 때 
+   모바일 적용할 css를 기술 */
+  .main-title {
+    font-size: 20px;
+  }
+  
+}
+/* @media screen and (max-width: 576px){
+  /* 화면의 크기가 1200px 이하일 때 
+  적용할 css를 기술 */
+  /* .main-title {
+    font-size: 10px;
+  } */
+
+
+

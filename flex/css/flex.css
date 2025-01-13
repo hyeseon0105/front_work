@@ -1,0 +1,49 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  
+  /* 가로 정렬일ㄸ쨰 맞춤 */
+  justify-content: center;
+  /* 세로 정렬일떄 맞춤 */
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.flex-item{
+  display: flex;
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+.item1{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  flex-grow: 1;
+  flex-grow: 1;
+
+}
+.item2{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  flex-grow: 1;
+
+}
+.item3{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  flex-grow: 5;
+
+}
+.flex-container2{
+  display: flex;
+  flex-grow: 1;
+
+}
