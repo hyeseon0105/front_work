@@ -148,6 +148,9 @@ div,input,textarea{
   .main-title{
     font-size: 30px;
   }
+  .product-container div{
+    width: 50%;
+  }
   
 }
 @media screen and (max-width: 768px){
@@ -155,6 +158,9 @@ div,input,textarea{
    모바일 적용할 css를 기술 */
   .main-title {
     font-size: 20px;
+  }
+  .product-container div{
+    width: 100px;
   }
   
 }
