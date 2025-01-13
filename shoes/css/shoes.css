@@ -141,6 +141,17 @@ div,input,textarea{
   text-align: center;
   float: left;
 }
+.product-container i{
+  background-color: rgb(231, 202, 164);
+  width: 100px;
+  height: 100px;
+  padding-top: 25px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: whites;
+box-sizing: border-box;
+}
+
 
 @media screen and (max-width: 1200px){
   /* 화면의 크기가 1200px 이하일 때 
@@ -153,6 +164,7 @@ div,input,textarea{
   }
   
 }
+
 @media screen and (max-width: 768px){
   /* 화면의 크기가 1200px 이하일 때 
    모바일 적용할 css를 기술 */
